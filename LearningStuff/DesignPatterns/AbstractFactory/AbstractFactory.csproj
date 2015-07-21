@@ -39,7 +39,22 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Factories\ComputersFactory.cs" />
+    <Compile Include="Factories\GamingComputersFactory.cs" />
+    <Compile Include="Factories\OfficeComputersFactory.cs" />
+    <Compile Include="Models\Cpu\AmdCpu.cs" />
+    <Compile Include="Models\Cpu\Cpu.cs" />
+    <Compile Include="Models\Cpu\IntelCpu.cs" />
+    <Compile Include="Models\Gpu\AmdRadeon.cs" />
+    <Compile Include="Models\Gpu\Gpu.cs" />
+    <Compile Include="Models\Gpu\NvidiaGeforce.cs" />
+    <Compile Include="Models\Ram\KingstonRam.cs" />
+    <Compile Include="Models\Ram\Ram.cs" />
+    <Compile Include="Models\Ram\SamsungRam.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Readme.txt" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
