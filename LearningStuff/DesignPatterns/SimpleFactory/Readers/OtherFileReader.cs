@@ -1,6 +1,6 @@
 ﻿using System.IO;
 
-namespace AbstractFactory.Readers
+namespace SimpleFactory.Readers
 {
     public class OtherFileReader : IFileReader
     {

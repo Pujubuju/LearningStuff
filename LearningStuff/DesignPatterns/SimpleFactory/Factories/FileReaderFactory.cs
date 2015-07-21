@@ -1,8 +1,8 @@
-﻿using AbstractFactory.Common;
-using AbstractFactory.Readers;
-using System;
+﻿using System;
+using SimpleFactory.Common;
+using SimpleFactory.Readers;
 
-namespace AbstractFactory.Factories
+namespace SimpleFactory.Factories
 {
     public class FileReaderFactory
     {

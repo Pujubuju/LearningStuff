@@ -1,4 +1,4 @@
-﻿namespace AbstractFactory.Common
+﻿namespace SimpleFactory.Common
 {
     public enum FileType
     {

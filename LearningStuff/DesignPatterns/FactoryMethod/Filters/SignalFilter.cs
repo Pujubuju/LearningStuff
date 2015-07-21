@@ -1,12 +1,7 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
-namespace FactoryMethod.Filters
+﻿namespace FactoryMethod.Filters
 {
-    class SignalFilter
+    public abstract class SignalFilter
     {
+        public abstract byte[] FilterSignal(byte[] signal);
     }
 }
