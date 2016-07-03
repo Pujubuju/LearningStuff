@@ -41,7 +41,6 @@
   <ItemGroup>
     <Compile Include="Consumer.cs" />
     <Compile Include="ExternalService.cs" />
-    <Compile Include="ExternalServiceAdapter.cs" />
     <Compile Include="IUsersService.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
